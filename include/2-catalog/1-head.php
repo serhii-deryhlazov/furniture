@@ -29,7 +29,13 @@ style="background-image: url('./assets/img/bg10.jpg'); background-position: bott
 			</a>
 		</li>
 		<li>
-			<a href="#products" data-number="3">
+			<a href="#filters" data-number="3">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Фильтры</span>
+			</a>
+		</li>
+		<li>
+			<a href="#products" data-number="4">
 				<span class="cd-dot"></span>
 				<span class="cd-label">Товары</span>
 			</a>

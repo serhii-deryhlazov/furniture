@@ -7,7 +7,7 @@
 				<div class="col-md-3">
 					<div class="card card-refine card-plain">
 						<div class="card-content">
-							<h4 class="card-title">
+							<h4 class="card-title" id="filters">
 								Фильтруй
 								<button class="btn btn-default btn-fab btn-fab-mini btn-simple pull-right" rel="tooltip" title="сбросить">
 									<i class="material-icons">cached</i>

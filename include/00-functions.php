@@ -35,15 +35,18 @@ function activeClass($page)
 
 function isActiveCat($page, $tab=null)
 {
-    if ($tab == null && $_GET['cat'] == $page) {
-
-        echo "checked=''";
-    }
-    else
+    if (isset($_GET['cat']))
     {
-        echo "in";
-    }
+        if ($tab == null && $_GET['cat'] == $page) 
+        {
 
+            echo "checked=''";
+        }
+        else
+        {
+            echo "in";
+        }
+    }
 }
 
 function isActive($page)

@@ -11,31 +11,31 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="info" style="padding: 20px 0 50px;">
+						<div class="icon icon-rose">
+							<i class="material-icons">family_restroom</i>
+						</div>
+						<h4 class="info-title">Detvora</h4>
+						<p>Мебель не для взрослых 😊</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="info" style="padding: 20px 0 50px;">
 						<div class="icon icon-primary">
-							<i class="material-icons">construction</i>
+							<i class="material-icons">airline_seat_legroom_extra</i>
+						</div>
+						<h4 class="info-title">Комфорт</h4>
+						<p>Стремление к безопасности и удобству в каждой детали!</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="info" style="padding: 20px 0 50px;">
+						<div class="icon icon-success">
+							<i class="material-icons">eco</i>
 						</div>
 						<h4 class="info-title">Качество</h4>
-						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="info" style="padding: 20px 0 50px;">
-						<div class="icon icon-primary">
-							<i class="material-icons">payments</i>
-						</div>
-						<h4 class="info-title">Цена</h4>
-						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="info" style="padding: 20px 0 50px;">
-						<div class="icon icon-primary">
-							<i class="material-icons">local_shipping</i>
-						</div>
-						<h4 class="info-title">Доставка</h4>
-						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+						<p>Сертифицированная экологичность материалов.</p>
 					</div>
 				</div>
 			</div>
