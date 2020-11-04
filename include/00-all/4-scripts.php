@@ -25,6 +25,7 @@
     });
 </script>
 
+<script src="./assets/js/jquery.flexisel.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $("#flexiselDemo1").flexisel({

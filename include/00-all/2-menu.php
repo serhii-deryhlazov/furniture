@@ -1,7 +1,4 @@
-<nav id="main-menu" class="navbar navbar-primary" style="background-color: #FFF; 
-        color: #555; margin-bottom: 0; 
-        box-shadow: none;
-        z-index: 99;">
+<nav id="main-menu" class="navbar navbar-primary <?php isLanding() ?>">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-primary">
@@ -10,7 +7,7 @@
                 <span style="color: #3C4858;" class="icon-bar"></span>
                 <span style="color: #3C4858;" class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="?p=1-main"><img src="./assets/img/detvora-logo.png" /></a>
+            <a class="navbar-brand" href="?p=1-main"><img <?php isLandingShadow(); ?> /></a>
         </div>
 
         <div class="collapse navbar-collapse" id="example-navbar-primary">
@@ -42,6 +39,11 @@
                             </a>
                         </li>
                     </ul>
+                </li>
+                <li class="<?php isActive("5-materials"); ?>">
+                    <a href="?p=5-materials">
+                        <i class="material-icons">nature_people</i> МАТЕРИАЛЫ
+                    </a>
                 </li>
                 <li class="<?php isActive("4-contact"); ?>">
                     <a href="?p=4-contact">

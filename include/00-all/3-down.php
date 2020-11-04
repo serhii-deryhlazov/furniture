@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer" <?php isLandingFooter() ?>>
     <div class="container">
         <nav class="pull-left">
             <ul>
@@ -46,9 +46,6 @@
 <!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/   -->
 <script src="assets/js/nouislider.min.js" type="text/javascript"></script>
 
-<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker   -->
-<script src="assets/js/bootstrap-datetimepicker.js" type="text/javascript"></script>
-
 <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select   -->
 <script src="assets/js/bootstrap-selectpicker.js" type="text/javascript"></script>
 
@@ -63,16 +60,8 @@
 
 <script src="assets/assets-for-demo/vertical-nav.js" type="text/javascript"></script>
 
-
 <!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
 <script src="assets/js/material-kit.js?v=1.3.0" type="text/javascript"></script>
-
-<script type="text/javascript">
-    $().ready(function() {
-
-        materialKitDemo.initContactUs2Map();
-    });
-</script>
 
 <?php include("4-scripts.php") ?>
 

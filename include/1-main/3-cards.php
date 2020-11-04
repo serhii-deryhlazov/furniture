@@ -3,8 +3,7 @@
         <div class="row">
             <div class="col-md-6">
 
-                <div class="card card-background" 
-                style="background-image: url('assets/img/examples/office1.jpg');
+                <div class="card card-background" style="background-image: url('assets/img/office1.jpg');
                 background-position: bottom;">
 
                     <div class="card-content">
@@ -23,8 +22,7 @@
             </div>
 
             <div class="col-md-6">
-                <div class="card card-background" 
-                style="background-image: url('assets/img/examples/card-project4.jpg');
+                <div class="card card-background" style="background-image: url('assets/img/card-project4.jpg');
                 background-position: bottom;">
                     <div class="card-content">
                         <h6 class="category text-info">контакты</h6>
@@ -38,6 +36,30 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="col-md-12">
+
+                <div class="card card-background" style="background-image: url('./assets/img/bg8.jpg')">
+
+                    <div class="card-content">
+                        <h6 class="category text-info">материалы</h6>
+                        <a href="?p=5-materials">
+                            <h3 class="card-title">Только экологичные материалы</h3>
+                        </a>
+                        <p class="card-description">
+                            В производстве мы используем предмет рассекал небо над крышами: одна сторона его была расцвечена закатом, с другой солнечная позолота давно осыпалась...
+                        </p>
+                        <a href="?p=5-materials" class="btn btn-white btn-simple">
+                            <span class="text-success"><i class="material-icons">eco</i>Eco</span>Standard
+                        </a>
+                        <a href="?p=5-materials" class="btn btn-white btn-simple">
+                            <i class="material-icons">read_more</i> Читать полностью
+                        </a>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </div>

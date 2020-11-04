@@ -7,7 +7,7 @@
 <div class="main main-raised">
     <div class="contact-content">
         <div class="container">
-            <h2 class="title" id="textus">Напиши нам</h2>
+            <h2 class="title" id="textus">Напишите нам</h2>
             <div class="row">
                 <div class="col-md-6">
                     <p class="description">Будем рады ответить на любые ваши вопросы<br><br>

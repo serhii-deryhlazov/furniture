@@ -24,4 +24,4 @@
 	<?php include('1-styles.php'); ?>
 </head>
 
-<body class="<?php activeClass($_GET['p']) ?>" style="background-color: #fff;">
+<body class="<?php activeBodyClass($_GET['p']) ?>" style="background-color: #fff;">

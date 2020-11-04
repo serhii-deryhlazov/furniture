@@ -13,7 +13,42 @@ function build_page()
     };
 }
 
-function activeClass($page)
+function isLandingFooter(){
+    if (isset($_GET['p']) && $_GET['p'] == "5-materials") 
+    {
+        echo "style='color: #fff;'";
+    } 
+    else if (isset($_GET['p']) && $_GET['p'] == "3-product")
+    {
+        echo "style='background-color: transparent;'";
+    }
+}
+
+function isLanding()
+{
+    if (isset($_GET['p']) && $_GET['p'] == "5-materials" || $_GET['p'] == "3-product") 
+    {
+        echo "navbar-transparent navbar-absolute";
+    }
+    else
+    {
+        echo " \"style=\"background-color: #FFF;color: #555; margin-bottom: 0;box-shadow: none;z-index: 99;\"";
+    }
+}
+
+function isLandingShadow()
+{
+    if (isset($_GET['p']) && $_GET['p'] == "5-materials" || $_GET['p'] == "3-product") 
+    {
+        echo "src=\"./assets/img/detvora-logo-2-w.png\"";
+    }
+    else
+    {
+        echo "src=\"./assets/img/detvora-logo-2.png\"";
+    }
+}
+
+function activeBodyClass($page)
 {
     switch ($page) {
         case "1-main":
@@ -27,6 +62,9 @@ function activeClass($page)
             break;
         case "4-contact":
             echo "contact-page";
+            break;
+        case "5-materials":
+            echo "landing-page";
             break;
         default:
             echo "ecommerce-page";

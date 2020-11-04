@@ -25,7 +25,7 @@
 
 <div class="header-3">
 
-    <div id="carousel-example-generic" style="margin: 1vh 15vw;" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <div class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
@@ -63,7 +63,7 @@
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-1 text-center">
                                     <h1 style="font-size: 1.8em;" class="title">Продукт Первый</h1>
-                                    <h4 style="font-size: 1em; width: 50%; margin: 10px auto;">
+                                    <h4 class="slide-h4">
                                         Продукт изготовлен из такого-то материала,<br>
                                         Идеально подходит для такого-то помещения.<br>
                                         Сочетается с меблями такой-то серии.
@@ -120,7 +120,7 @@
                             <div class="row">
                                 <div class="col-md-8 text-center">
                                     <h1 style="font-size: 1.8em;" class="title">Второй Продукт</h1>
-                                    <h4 style="font-size: 1em; width: 50%; margin: 10px auto;">
+                                    <h4 class="slide-h4">
                                         Продукт изготовлен из такого-то материала,<br>
                                         Идеально подходит для такого-то помещения.<br>
                                         Сочетается с меблями такой-то серии.
@@ -173,7 +173,7 @@
                             <div class="row">
                                 <div class="col-md-8 text-center">
                                     <h1 style="font-size: 1.8em;" class="title">Трeтий</h1>
-                                    <h4 style="font-size: 1em; width: 50%; margin: 10px auto;">
+                                    <h4 class="slide-h4">
                                         Продукт изготовлен из такого-то материала,<br>
                                         Идеально подходит для такого-то помещения.<br>
                                         Сочетается с меблями такой-то серии.
