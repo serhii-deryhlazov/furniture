@@ -18,42 +18,96 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu dropdown-with-icons">
-                        <li>
+                        <li class="text-center">
                             <a href="?p=2-catalog">
-                                <i class="material-icons">apps</i> Все товары
+                                Все товары
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="?p=2-catalog&cat=1">
-                                <i class="material-icons disabled">list</i> Детские столы и стулья
+                                Cтулья
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="?p=2-catalog&cat=2">
-                                <i class="material-icons disabled">list</i> Школьные парты
+                                Столы
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="?p=2-catalog&cat=3">
-                                <i class="material-icons disabled">list</i> Уличная мебель
+                                Шкафы
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="?p=2-catalog&cat=3">
+                                Кровати
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="?p=2-catalog&cat=3">
+                                Полки
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="?p=2-catalog&cat=3">
+                                Для детских садиков
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="?p=2-catalog&cat=3">
+                                Аксесуары
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="<?php isActive("5-materials"); ?>">
-                    <a href="?p=5-materials">
-                        <i class="material-icons">nature_people</i> МАТЕРИАЛЫ
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="material-icons">account_circle</i> О НАС
+                        <b class="caret"></b>
                     </a>
+                    <ul class="dropdown-menu dropdown-with-icons">
+                        <li class="text-center">
+                            <a href="#">
+                                Кто мы
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="#">
+                                Производство
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown <?php isActive("5-materials"); ?>">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="material-icons">nature_people</i> МАТЕРИАЛЫ
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu dropdown-with-icons">
+                        <li class="text-center">
+                            <a href="#">
+                                Фанера
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="#">
+                                HPL-пластик
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="#">
+                                Масло-воск
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="<?php isActive("4-contact"); ?>">
                     <a href="?p=4-contact">
                         <i class="material-icons">location_on</i> КОНТАКТЫ
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <i class="material-icons">account_circle</i> О НАС
-                    </a>
+                <li class="text-center">
+                    <img id="lang" src="assets\img\flags\ukraine.png">
                 </li>
             </ul>
         </div>

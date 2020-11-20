@@ -51,8 +51,30 @@
     });
 </script>
 <script>
+
+    $("#lang").on("click", function() {
+        $(this).attr("src", "assets/img/flags/russia.png");
+    });
+
+    $(".card-product").on("click", function() {
+        window.location.href = $(this).find("a").attr("href");
+    });
+
+    $("#catlink").on("click", function() {
+        window.location.href = "?p=2-catalog";
+    });
+
+    $("#contlink").on("click", function() {
+        window.location.href = "?p=4-contact";
+    });
+
+    $("#matlink").on("click", function() {
+        window.location.href = "?p=5-materials";
+    });
+
     $(".main-cat").on("click", function(e) {
         $("#collapseTwo").addClass("in");
+
         switch ($(this).data("ftype")) {
             case 1:
                 $("#ft1").attr("checked", "true");

@@ -25,8 +25,8 @@
     }
 
     .navbar-brand>img {
-        height: 126px;
-        margin-top: -20px;
+        height: 40px;
+        margin: 0 0 0 -10px;
     }
 
     .slide-h4 {
@@ -36,7 +36,12 @@
     }
 
     #carousel-example-generic {
-        margin: 1vh 15vw;
+        margin: 0 5vw 3vh 5vw;
+    }
+
+    .carousel-slide {
+
+        height: 90vh;
     }
 
     @media (max-width: 500px) {
@@ -47,8 +52,8 @@
         }
 
         .navbar-brand>img {
-            height: 100px;
-            margin-top: -30px;
+            height: 20px;
+            margin: 0 0 0 0px;
         }
     }
 
@@ -68,6 +73,23 @@
     }
 
     .carousel .carousel-indicators {
-        bottom: -25px;
+        bottom: -18px;
+    }
+
+    .card-background,
+    .card-product {
+        cursor: pointer;
+    }
+
+    #lang {
+        height: 25px;
+        margin-top: 12px;
+        margin-left: 10px;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+
+    #lang:hover {
+        box-shadow: 0 0 15px #33333373;
     }
 </style>

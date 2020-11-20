@@ -57,7 +57,7 @@
                     background-size: cover;
                     padding: 0 30px;
                     background-position: bottom;
-                    min-height: 70vh;">
+                    min-height: 85vh;">
 
                         <div class="container" style="padding-top: 39vh;">
                             <div class="row">
@@ -114,7 +114,7 @@
                     height: 20vw;
                     background-size: cover;
                     padding: 0 30px;
-                    min-height: 70vh;">
+                    min-height: 85vh;">
 
                         <div class="container" style="padding-top: 39vh;">
                             <div class="row">
@@ -163,11 +163,11 @@
                 <div class="item">
                     <div class="page-header header-filter" style="
                     background-image: url('assets/img/bg10.jpg');
-                    height: 20vw;
+                    height: 85vh;
                     background-size: cover;
                     padding: 0 30px;
                     background-position: bottom;
-                    min-height: 70vh;">
+                    min-height: 85vh;">
 
                         <div class="container" style="padding-top: 39vh;">
                             <div class="row">

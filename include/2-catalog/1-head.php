@@ -2,7 +2,7 @@
 
 <div class="page-header header-filter header-small" data-parallax="true" 
 style="background-image: url('./assets/img/bg10.jpg'); background-position: bottom;">
-	<div class="container">
+	<div class="container" style="padding-top: 20vh;">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<div class="brand">

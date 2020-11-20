@@ -40,11 +40,11 @@ function isLandingShadow()
 {
     if (isset($_GET['p']) && $_GET['p'] == "5-materials" || $_GET['p'] == "3-product") 
     {
-        echo "src=\"./assets/img/detvora-logo-2-w.png\"";
+        echo "src=\"./assets/img/detvora-logo.png\"";
     }
     else
     {
-        echo "src=\"./assets/img/detvora-logo-2.png\"";
+        echo "src=\"./assets/img/detvora-logo.jpg\"";
     }
 }
 
